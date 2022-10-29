@@ -9,7 +9,7 @@ sudo systemctl stop dewebd && dewebd unsafe-reset-all
 Set RPC:
 
 ```bash
-RPC="http://45.67.32.53:26657"
+RPC="https://deweb-sirius.sr20de.xyz"
 ```
 Set variables `$LATEST_HEIGHT, $BLOCK_HEIGHT, $TRUST_HASH`:
 

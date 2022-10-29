@@ -9,7 +9,7 @@ sudo systemctl stop tgrade && tgrade tendermint unsafe-reset-all --home ~/.tgrad
 Set RPC:
 
 ```bash
-RPC="http://77.83.92.238:46657"
+RPC="https://tgrade-api.sr20de.xyz"
 ```
 Set variables `$LATEST_HEIGHT, $BLOCK_HEIGHT, $TRUST_HASH`:
 
