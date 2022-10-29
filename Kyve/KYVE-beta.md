@@ -10,8 +10,8 @@ sudo systemctl stop chaind && chaind tendermint unsafe-reset-all --home $HOME/.k
 
 Set RPC:
 
-```bash
-RPC="https://kyve-beta-api.sr20de.xyz"
+```bash:
+RPC="https://kyve-beta-api.sr20de.xyz:443"
 ```
 Set variables `$LATEST_HEIGHT, $BLOCK_HEIGHT, $TRUST_HASH`:
 
