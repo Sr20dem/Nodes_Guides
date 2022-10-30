@@ -30,7 +30,11 @@ If the output is similar to this, then everything is fine and you can proceed to
 ```
 Configure persistent peers:
 ```bash
-peers="61da70005efc69aee1392d880aa34532c06adfdc@164.215.102.44:26656"
+peers="1821cdb75b5d523cab314a937468b11fc169aaf6@65.21.129.95:26656,
+052d6215402c793361e52acfc6e257be53b35e21@65.21.143.79:26256,
+a3245ded96e3642ff3f1d80f75f60ba7a58f8877@135.181.249.13:14656,
+f7919e6c903de12544f61e5f4a0ca410fb2a0773@195.3.223.11:26686,61da70005efc69aee1392d880aa34532c06adfdc@45.67.32.53:26656,79a4dc86281be42768d33f25807ff5ab80c3c916@75.119.134.69:26656,
+96b200c6f3ace31f59b0d878109c689623514c2b@185.205.244.21:14656"
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$peers\"/" $HOME/.deweb/config/config.toml
 ```
 Let's make changes to the config.toml:
