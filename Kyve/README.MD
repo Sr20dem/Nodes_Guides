@@ -20,7 +20,7 @@ Set variables `$LATEST_HEIGHT, $BLOCK_HEIGHT, $TRUST_HASH`:
 ```bash
 LATEST_HEIGHT=$(curl -s $SNAP_RPC1/block | jq -r .result.block.header.height); \
 BLOCK_HEIGHT=$((LATEST_HEIGHT - 2000)); \
-TRUST_HASH=$(curl -s "$RPC/block?height=$BLOCK_HEIGHT" | jq -r .result.block_id.hash)
+TRUST_HASH=$(curl -s "$SNAP_RPC1/block?height=$BLOCK_HEIGHT" | jq -r .result.block_id.hash)
 ```
 Check that the values are received:
 
