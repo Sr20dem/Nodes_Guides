@@ -11,7 +11,7 @@ sudo systemctl stop noisd && noisd tendermint unsafe-reset-all --home $HOME/.noi
 Set RPC:
 
 ```bash
-RPC="http://130.255.170.151:36657"
+RPC="https://rpc-testnet-nois.sr20de.xyz"
 ```
 Set variables `$LATEST_HEIGHT, $BLOCK_HEIGHT, $TRUST_HASH`:
 

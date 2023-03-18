@@ -9,7 +9,7 @@ sudo systemctl stop acred && acred tendermint unsafe-reset-all --home $HOME/.acr
 Set RPC:
 
 ```bash
-RPC="https://rpc-arable.sr20de.xyz:443"
+RPC="https://rpc-acre.sr20de.xyz:443"
 ```
 Set variables `$LATEST_HEIGHT, $BLOCK_HEIGHT, $TRUST_HASH`:
 
