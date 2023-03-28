@@ -1,3 +1,4 @@
+#Testnet ended
 # State-Sync for Deweb Sirius Testnet
 
 Stop your node and reset:
